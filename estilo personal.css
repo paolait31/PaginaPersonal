@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*Para todas las páginas*/
+
+body {
+  background: #DEF1F2;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+  height: 100%;
+  font-family: Times New Roman;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #8999BC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    font-size: 23px;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #8999BC;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #8999BC;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+/*Para página personal*/
+
+.content1{
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    right: 8%;
+}
+.content1 .title{
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content1 h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content1 h1 span{
+    color: #8999BC;
+}
+.content1 p{
+    width: 55%;
+    font-size: 19px;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.foto {
+    width: 25%;
+    height: 400px;
+}
+
+
+.content h1 {
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+  line-height: 80px;
+  text-transform: inherit;
+  width: 70%;
+}
+
+/*Para página quien soy*/
+
+@import url("https://fonts.googleapis.com/css?family=Marvel:400,700");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.row {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1.5rem; }
+
+.card {
+  display: inline-block;
+  width: 45%;
+  top: 0;
+  padding: 2rem 1rem 5rem 1rem;
+  background-color: teal;
+  position: relative; 
+}
+
+  .card:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: skyblue;
+    top: 0px;
+    right: 0px;
+    border-bottom: 25px solid #6DB4B4;
+    border-left: 25px solid #6DB4B4;
+    border-right: 25px solid #DEF1F2;
+    border-top: 25px solid #DEF1F2;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.5)); }
+  .card:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #6DB4B4;
+    border-right: 30px solid #6DB4B4;
+    border-left: 30px solid #DEF1F2;
+    border-bottom: 30px solid #DEF1F2;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    filter: drop-shadow(7px -7px 5px rgba(0, 0, 0, 0.5));
+    margin-right: 10%; }
+  .card:nth-of-type(1) {
+    margin-right: 9%; }
+  .card h2 {
+    color: snow;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .card p {
+    color: snow;
+    font-size: 1.1rem;
+    line-height: 140%; }
+
+  .card ul {
+    list-style: none;
+    color: snow;
+    font-size: 1.1rem;
+    line-height: 140%; 
+}
+
+
+/*Para página pasatiempos*/
+
+@keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    top: 0px; } }
+
+@keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1; }
+  100% {
+    top: -400px;
+    opacity: 0; } }
+
+
+  body #scene {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    top: 10em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden; }
+    body #scene #left-zone {
+      background: #fff;
+      height: 75%;
+      flex-grow: 0;
+      display: flex;
+      width: 350px;
+      align-items: center;
+      justify-content: left; }
+      body #scene #left-zone .list {
+        display: flex;
+        list-style: none;
+        align-content: stretch;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0; }
+        body #scene #left-zone .list li.item input[type="radio"] {
+          display: none; }
+          body #scene #left-zone .list li.item input[type="radio"] ~ label {
+            font-size: 18px;
+            display: block;
+            opacity: 0.5;
+            height: 50px;
+            text-align: center;
+            line-height: 50px; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {
+              text-transform: uppercase; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label:hover {
+              opacity: 0.75;
+              cursor: pointer; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label.label_leer:before {
+              content: " ";
+              display: block;
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-left: 15px;
+              background-image: url("Image/libros.png");
+              background-position: center;
+              background-size: 75% 75%;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label.label_musica:before {
+              content: " ";
+              display: block;
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-left: 15px;
+              background-image: url("Image/musica.jpg");
+              background-position: center;
+              background-size: 75% 75%;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label.label_ver:before {
+              content: " ";
+              display: block;
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-left: 15px;
+              background-image: url("Image/ver.jpg");
+              background-position: center;
+              background-size: 75% 75%;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label.label_jugar:before {
+              content: " ";
+              display: block;
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-left: 15px;
+              background-image: url("Image/jugando.png");
+              background-position: center;
+              background-size: 75% 75%;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ label.label_familia:before {
+              content: " ";
+              display: block;
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-left: 15px;
+              background-image: url("Image/familia.png");
+              background-position: center;
+              background-size: 75% 75%;
+              background-repeat: no-repeat; }
+          body #scene #left-zone .list li.item input[type="radio"] ~ .content {
+            position: absolute;
+            left: 350px;
+            top: -400px;
+            width: 650px;
+            height: 400px;
+            animation-duration: 0.75s;
+            animation-name: slideout;
+            animation-timing-function: ease-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_leer .picto {
+              height: 115px;
+              width: 115px;
+              background-image: url("Image/leer.jpg");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_leer h1 {
+              color: #90BFA4; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_musica .picto {
+              height: 115px;
+              width: 115px;
+              background-image: url("Image/escuchar.jpg");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_musica h1 {
+              color: #DC92D2; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_ver .picto {
+              height: 115px;
+              width: 115px;
+              background-image: url("Image/serie.jpg");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_ver h1 {
+              color: #9F9FC5; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_jugar .picto {
+              height: 115px;
+              width: 115px;
+              background-image: url("Image/perritos.jpg");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_jugar h1 {
+              color: #D0AF8F; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_familia .picto {
+              height: 115px;
+              width: 115px;
+              background-image: url("Image/felicidad.png");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_familia h1 {
+              color: #B299C1; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-letter {
+              text-transform: uppercase; }
+            body #scene #left-zone .list li.item input[type="radio"] ~ .content p {
+              max-width: 50%;
+              font-size: 19px;
+              text-align: center; }
+          body #scene #left-zone .list li.item input[type="radio"]:checked ~ label {
+            opacity: 1;
+            animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+            body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_leer {
+              color: #90BFA4;
+              border-right: solid 4px #90BFA4; }
+            body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_musica {
+              color: #DC92D2;
+              border-right: solid 4px #DC92D2; }
+            body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_ver {
+              color: #9F9FC5;
+              border-right: solid 4px #9F9FC5; }
+            body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_jugar {
+              color: #D0AF8F;
+              border-right: solid 4px #D0AF8F; }
+            body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_familia {
+              color: #B299C1;
+              border-right: solid 4px #B299C1; }
+          body #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
+            animation-duration: 0.75s;
+            animation-name: slidein;
+            animation-fill-mode: forwards;
+            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+    body #scene #middle-border {
+      background-color: #eee;
+      height: 75%;
+      flex-grow: 1;
+      max-width: 2px;
+      z-index: 0; }
+    body #scene #right-zone {
+      background: #fff;
+      height: 100%;
+      flex-grow: 3; }
+
+/*Para página contacto*/
+
+      @charset "utf-8";
+      .tarjeta{
+      background-color: white;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      width:420px;
+      border: 1px solid lightgray;
+      box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+      border-radius:15px;
+      }
+      .titulo{
+      color: #DC7BAC;
+      font-size: 24px;
+      padding: 10px 10px 0 10px;;
+      }
+      .cuerpo{
+      padding: 10px;
+      }
+
