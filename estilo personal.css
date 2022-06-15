@@ -266,7 +266,7 @@ nav ul li a:hover:after{
               width: 50px;
               height: 50px;
               margin-left: 15px;
-              background-image: url("Image/libros.png");
+              background-image: url("libros.png");
               background-position: center;
               background-size: 75% 75%;
               background-repeat: no-repeat; }
@@ -277,7 +277,7 @@ nav ul li a:hover:after{
               width: 50px;
               height: 50px;
               margin-left: 15px;
-              background-image: url("Image/musica.jpg");
+              background-image: url("musica.jpg");
               background-position: center;
               background-size: 75% 75%;
               background-repeat: no-repeat; }
@@ -288,7 +288,7 @@ nav ul li a:hover:after{
               width: 50px;
               height: 50px;
               margin-left: 15px;
-              background-image: url("Image/ver.jpg");
+              background-image: url("ver.jpg");
               background-position: center;
               background-size: 75% 75%;
               background-repeat: no-repeat; }
@@ -299,7 +299,7 @@ nav ul li a:hover:after{
               width: 50px;
               height: 50px;
               margin-left: 15px;
-              background-image: url("Image/jugando.png");
+              background-image: url("jugando.png");
               background-position: center;
               background-size: 75% 75%;
               background-repeat: no-repeat; }
@@ -310,7 +310,7 @@ nav ul li a:hover:after{
               width: 50px;
               height: 50px;
               margin-left: 15px;
-              background-image: url("Image/familia.png");
+              background-image: url("familia.png");
               background-position: center;
               background-size: 75% 75%;
               background-repeat: no-repeat; }
@@ -330,7 +330,7 @@ nav ul li a:hover:after{
             body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_leer .picto {
               height: 115px;
               width: 115px;
-              background-image: url("Image/leer.jpg");
+              background-image: url("leer.jpg");
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat; }
@@ -339,7 +339,7 @@ nav ul li a:hover:after{
             body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_musica .picto {
               height: 115px;
               width: 115px;
-              background-image: url("Image/escuchar.jpg");
+              background-image: url("escuchar.jpg");
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat; }
@@ -348,7 +348,7 @@ nav ul li a:hover:after{
             body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_ver .picto {
               height: 115px;
               width: 115px;
-              background-image: url("Image/serie.jpg");
+              background-image: url("serie.jpg");
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat; }
@@ -357,7 +357,7 @@ nav ul li a:hover:after{
             body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_jugar .picto {
               height: 115px;
               width: 115px;
-              background-image: url("Image/perritos.jpg");
+              background-image: url("perritos.jpg");
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat; }
@@ -366,7 +366,7 @@ nav ul li a:hover:after{
             body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_familia .picto {
               height: 115px;
               width: 115px;
-              background-image: url("Image/felicidad.png");
+              background-image: url("felicidad.png");
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat; }
